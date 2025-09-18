@@ -1,6 +1,7 @@
 import { BookHeartIcon, HomeIcon, ScissorsIcon } from "lucide-react";
 import { Button } from "./ui/button";
 import { SheetClose, SheetContent, SheetHeader, SheetTitle } from "./ui/sheet";
+import LogoComponent from "./logo-component";
 
 const SidebarSheet = () => {
   return (
@@ -27,6 +28,9 @@ const SidebarSheet = () => {
             Serviços
           </Button>
         </SheetClose>
+      </div>
+      <div className="p-4">
+        <LogoComponent />
       </div>
     </SheetContent>
   );
