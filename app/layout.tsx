@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Great_Vibes, Montserrat } from "next/font/google";
 
 import "./globals.css";
+import Footer from "@/components/footer";
 
 const greatVibes = Great_Vibes({
   variable: "--font-great-vibes",
@@ -30,7 +31,10 @@ export default function RootLayout({
       <body
         className={`${greatVibes.variable} ${montserrat.variable} antialiased`}
       >
-        {children}
+        <div className="flex flex-col min-h-screen">
+          <div className="flex-1">{children}</div>
+          <Footer />
+        </div>
       </body>
     </html>
   );

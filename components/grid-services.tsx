@@ -14,12 +14,12 @@ const GridServices = () => {
       {services.map((service) => (
         <Card
           key={service.title}
-          className="w-[160px] h-[190px] sm:w-[320px] sm:h-[380px]  rounded-2xl p-0"
+          className="w-[160px] h-[190px] sm:w-[320px] sm:h-[380px]  rounded-2xl p-0 bg-secondary border-solid border-2 border-secondary"
         >
           <div className="relative w-full h-full p-0">
             <Image
               fill
-              className="object-cover rounded-lg"
+              className="object-cover rounded-lg opacity-50"
               src={service.img}
               alt={service.title}
             />
