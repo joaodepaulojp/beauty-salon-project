@@ -51,8 +51,8 @@
   --primary-foreground: #ffffff; /* texto dos botões */
   --secondary: #8e4d68; /* detalhes, hover, links */
   --secondary-foreground: #ffffff; /* texto em destaque secundário */
-  --accent: #e07a5f; /* destaque extra */
-  --accent-foreground: #ffffff; /* texto do destaque */
+  --accent: #f4989a; /* destaque extra */
+  --accent-foreground: #f17577; /* texto do destaque */
   --muted: #ffffff; /* divisores, linhas suaves */
   --muted-foreground: #2d2d2d; /* texto neutro secundário */
   --border: #f2b8a0; /* bordas suaves */
