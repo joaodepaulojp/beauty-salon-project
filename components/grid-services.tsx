@@ -10,7 +10,7 @@ const GridServices = () => {
   ];
 
   return (
-    <div className="grid grid-cols-2 gap-7 md:flex md:items-center px-5 place-items-center">
+    <div className="grid grid-cols-2 gap-6 md:flex md:items-center px-5 place-items-center justify-center">
       {services.map((service) => (
         <Card
           key={service.title}
@@ -25,7 +25,7 @@ const GridServices = () => {
             />
 
             <div className="absolute inset-0 flex items-center justify-center px-2 text-center">
-              <p className="text-white font-semibold text-sm">
+              <p className="text-white font-semibold text-lg">
                 {service.title}
               </p>
             </div>
