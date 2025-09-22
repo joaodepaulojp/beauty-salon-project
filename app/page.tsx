@@ -1,6 +1,7 @@
 import GridServices from "@/components/grid-services";
 import InfiniteScroll from "@/components/infinite-scroll";
 import LogoComponent from "@/components/logo-component";
+import { ScheduleButton } from "@/components/schedule-button";
 import SidebarSheet from "@/components/sidebar-sheet";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetTrigger } from "@/components/ui/sheet";
@@ -46,6 +47,10 @@ export default function Home() {
         <div>
           <InfiniteScroll />
         </div>
+      </div>
+
+      <div className="sticky bottom-0 bg-white p-4 flex justify-center">
+        <ScheduleButton />
       </div>
     </div>
   );
