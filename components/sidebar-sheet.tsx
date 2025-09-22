@@ -1,4 +1,10 @@
-import { BookHeartIcon, HomeIcon, ScissorsIcon } from "lucide-react";
+import {
+  BookHeartIcon,
+  HomeIcon,
+  MapPinIcon,
+  PhoneCallIcon,
+  ScissorsIcon,
+} from "lucide-react";
 import { Button } from "./ui/button";
 import { SheetClose, SheetContent, SheetHeader, SheetTitle } from "./ui/sheet";
 import LogoComponent from "./logo-component";
@@ -31,6 +37,15 @@ const SidebarSheet = () => {
       </div>
       <div className="p-4">
         <LogoComponent />
+      </div>
+
+      <div className="items-center flex flex-col">
+        <p className="text-[12px] flex items-center text-secondary mt-4 gap-1">
+          <MapPinIcon size={14} /> Centro, Catunda(CE)
+        </p>
+        <p className="text-[12px] flex items-center text-secondary gap-1">
+          <PhoneCallIcon size={14} /> (88) 99999-9999
+        </p>
       </div>
     </SheetContent>
   );
